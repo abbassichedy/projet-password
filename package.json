@@ -1,0 +1,44 @@
+{
+  "name": "passport-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "devop": " concurrently \"npm run client\" \"npm run server\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.4",
+    "antd": "^3.26.12",
+    "bcryptjs": "^2.4.3",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.4.1",
+    "concurrently": "^5.0.0",
+    "config": "^3.2.4",
+    "cookies": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mdbootstrap": "^4.13.0",
+    "mdbreact": "^4.25.2",
+    "mongoose": "^5.7.13",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-responsive-carousel": "^3.1.51",
+    "react-scripts": "^3.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^10.0.0"
+  }
+}
